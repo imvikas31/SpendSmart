@@ -6,7 +6,7 @@
 <img src="frontend/src/assets/dashboard.webp" />
 
 <h2 align="center">
-  <a href="https://spend-smart-dev.vercel.app">Explore the Project Live!</a>
+  <a href="https://ai-spendsmart.netlify.app">Explore the Project Live!</a>
 </h2>
 
 <hr/>
@@ -50,7 +50,7 @@ Follow these steps to set up Spend Smart on your local machine:
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/SaxenaShourya/spend-smart.git
+git clone https://github.com/imvikas31/SpendSmart.git
 ```
 
 ### Make the .env file in backend directory
@@ -66,7 +66,7 @@ cd backend
 ```bash
 # .env.example
 PORT=3000
-MONGO_URI=mongodb://localhost:27017/spend_smart
+MONGO_URI=mongodb://localhost:27017/
 JWT_SECRET_KEY=your_secret_key_here
 NODE_ENV=development
 ENCRYPTION_SALT=10
